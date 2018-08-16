@@ -1,4 +1,5 @@
 def celsius_to_fahrenheit():
+    """Converts Celsius to Fahrenheit"""
     celsius = float(input("Celsius: "))
     fahrenheit = celsius * 9.0 / 5 + 32
     return fahrenheit
