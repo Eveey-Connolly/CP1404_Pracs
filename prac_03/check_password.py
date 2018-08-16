@@ -2,9 +2,9 @@ MINIMUM_LENGTH = 3
 
 
 def main():
-        password = input("Enter Password:")
-        get_password(MINIMUM_LENGTH, password)
-        asterisk_printer(password)
+     password = input("Enter Password:")
+     get_password(MINIMUM_LENGTH, password)
+     asterisk_printer(password)
 
 
 def get_password(min_length, password):
