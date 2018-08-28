@@ -3,7 +3,7 @@ NUMBERS_PER_LINE = 6
 MIN_NUMBER = 1
 MAX_NUMBER = 45
 number_of_quick_picks = int(input("How many quick picks?"))
-while number_of_quick_picks <=0:
+while number_of_quick_picks <= 0:
     print("Invalid Number of Quick Picks")
     number_of_quick_picks = int(input("How many quick picks?"))
 for i in range(number_of_quick_picks):
